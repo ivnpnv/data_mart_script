@@ -1,4 +1,4 @@
---
+-- создаем витрину для хранения результатов анализа эффективности промо-акций
 create table if not exists detn.puma_promo_effectiveness_analysis (
     analysis_id              serial primary key, 					   -- уникальный идентификатор записи
     promo_id                 int not null,                             -- идентификатор акции
